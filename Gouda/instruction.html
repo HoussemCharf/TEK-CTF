@@ -1,0 +1,52 @@
+<h3>Hello there!</h3>
+<p>i heard you are looking for the flag! well good news i found it but before i hand it to you i need a favor. i have a serious cable issue that needs to be resolved and i would really appreciate the help!
+<br>so basically i have <b>two</b> cables on a board starting from the central port [O]. i am pretty positive that there is a short circuit happening at the <b>closest intersection of those two from the starting port</b>
+<br>your job is to find the shortest path for me to follow on the board to reach this intersection from the central port. don't worry i have a detailed description on how the 2 cables are deployed on the board
+
+<br>
+<br>
+<br>
+<a href="/input">Cables</a>
+<br>Example:
+<br>
+<br>
+<br>if the first cable's path is R8 U5 L5 D3. this means that the cable goes right 8 -> up 5, left 5, and lastly down 3:
+<br><code>
+...........
+<br>...........
+<br>...........
+<br>....+----+.
+<br>....|....|.
+<br>....|....|.
+<br>....|....|.
+<br>.........|.
+<br>.o-------+.
+<br>...........
+</code>
+<br>let's assume the seconde cable will follow U7 R6 D4 L4. this will result in the this structure.
+<br><code>
+    <br>...........
+    <br>.+-----+...
+    <br>.|.....|...
+    <br>.|..+--X-+.
+    <br>.|..|..|.|.
+    <br>.|.-X--+.|.
+    <br>.|..|....|.
+    <br>.|.......|.
+    <br>.o-------+.
+    <br>...........
+</code><br><br><br><br><br>
+<br>the intersection is 3 blocks away!
+
+<b>PS: 
+    <br>- Any attemp to brute force will result in -200 point 
+    <br>- You are limited to 10 trys
+</b>
+</p>
+<br> Feel free to submit your response here!
+<center>
+    <form action="/" method="post">
+    <input type="number" name="inter" id="inter">
+    <button type="submit">Found it!</button>
+    </form>
+</center>
